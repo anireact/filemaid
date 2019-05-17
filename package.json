@@ -1,0 +1,34 @@
+{
+    "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
+    "browserslist": [
+        "extends @anireact/browserslist-config"
+    ],
+    "bugs": "https://github.com/anireact/filemaid/issues",
+    "description": "Digs your downloads folder for you.",
+    "devDependencies": {
+        "@anireact/zc": "^1.2.5"
+    },
+    "eslintConfig": {
+        "extends": "@anireact",
+        "parser": "babel-eslint"
+    },
+    "homepage": "https://github.com/anireact/filemaid",
+    "lerna": {
+        "extends": "@anireact/lerna",
+        "version": "0.0.1"
+    },
+    "license": "MIT",
+    "name": "filemaid",
+    "prettier": "@anireact/prettier-config",
+    "private": true,
+    "repository": "anireact/filemaid",
+    "workspaces": [
+        "@filemaid/*"
+    ],
+    "zc": {
+        "private": false,
+        "scopes": [
+            "filemaid"
+        ]
+    }
+}
