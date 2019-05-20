@@ -1,0 +1,8 @@
+{
+    "references": [
+        { "path": "@filemaid/example" },
+        { "path": "@filemaid/global-config" },
+        { "path": "@filemaid/platform-folders" },
+        { "path": "@filemaid/watch" }
+    ]
+}
